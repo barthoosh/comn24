@@ -2,11 +2,13 @@
 #my_lpar_name: "common14"
 my_lpar_name: "common14"
 # Hostname i nazwa LPARu. Zamień 00 na numer Twojego użytkownika
-my_hdisk: "hdiskX"
+#my_hdisk: "hdiskX"
 # Nazwa mojego LUNu tak jak go widzą VIOSy. Uwaga, w rożnych viosach mogą być różne nazwy!
-my_power: "S824-6013"
+#my_power: "S824-6013"
 # system_name zarządzanego przez HMC pudła
 # Sprawy storydżowe
+
+
 fs_cluster: "fs5200-2.iic"
 fs_log: "/tmp/fs-{{ my_lpar_name }}.log"
 my_vdisk: "{{ my_lpar_name }}_os"
