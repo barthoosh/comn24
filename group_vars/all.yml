@@ -1,5 +1,5 @@
 # Sprawy ogólne
-my_lpar_name: "commonXX"
+my_lpar_name: "common14"
 # Hostname i nazwa LPARu. Zamień 00 na numer Twojego
 użytkownika
 my_hdisk: "hdiskX"
