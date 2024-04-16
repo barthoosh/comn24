@@ -1,10 +1,9 @@
 # Sprawy ogólne
+#my_lpar_name: "common14"
 my_lpar_name: "common14"
-# Hostname i nazwa LPARu. Zamień 00 na numer Twojego
-użytkownika
+# Hostname i nazwa LPARu. Zamień 00 na numer Twojego użytkownika
 my_hdisk: "hdiskX"
-# Nazwa mojego LUNu tak jak go widzą VIOSy. Uwaga, w rożnych
-viosach mogą być różne nazwy!
+# Nazwa mojego LUNu tak jak go widzą VIOSy. Uwaga, w rożnych viosach mogą być różne nazwy!
 my_power: "S824-6013"
 # system_name zarządzanego przez HMC pudła
 # Sprawy storydżowe
@@ -13,8 +12,7 @@ fs_log: "/tmp/fs-{{ my_lpar_name }}.log"
 my_vdisk: "{{ my_lpar_name }}_os"
 # common00_os
 src_vdisk: "common_master_os"
-# Wcześniej przygotowany obraz Fedory wyciągany przez Adama
-Słodowego spod biurka
+# Wcześniej przygotowany obraz Fedory wyciągany przez Adama Słodowego spod biurka
 my_vdisk_size: 64
 # 64 czego określa marametr unit. Zakładamy że GiB
 vios_cluster: "S824-6013"
