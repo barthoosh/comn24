@@ -3,7 +3,7 @@
 - hosts: localhost
 # Za wykonanie modułów ibm.storage_virtualize odpowiada stacja kontrolna
   gather_facts: false # bo nie obchodzi mnie co wiem o localhost
-tasks:
+- tasks:
 - name: "Uwierzytelnienie na jako {{ fs_user }} na {{ fs_cluster }}"
   register: auth_info # auth_info.token pozwala potem nie użwać user i hasła
   ibm.storage_virtualize.ibm_svc_auth:
